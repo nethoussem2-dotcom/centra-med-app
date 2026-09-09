@@ -1,0 +1,416 @@
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 57, in change_view
+    page.update()
+    ~~~~~~~~~~~^^
+  File "C:\Users\DELL pro\AppData\Roaming\Python\Python313\site-packages\flet_core\page.py", line 719, in update
+    r = self.__update(self)
+  File "C:\Users\DELL pro\AppData\Roaming\Python\Python313\site-packages\flet_core\page.py", line 835, in __update
+    results = self.__conn.send_commands(self._session_id, commands).results
+              ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL pro\AppData\Roaming\Python\Python313\site-packages\flet_runtime\flet_socket_server.py", line 173, in send_commands
+    self.__send(ClientMessage(ClientActions.PAGE_CONTROLS_BATCH, messages))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL pro\AppData\Roaming\Python\Python313\site-packages\flet_runtime\flet_socket_server.py", line 179, in __send
+    self.__loop.call_soon_threadsafe(self.__send_queue.put_nowait, j)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 873, in call_soon_threadsafe
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 551, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+
+Error in change_view for dashboard:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 81, in change_view
+    page.update()
+    ~~~~~~~~~~~^^
+  File "C:\Users\DELL pro\AppData\Roaming\Python\Python313\site-packages\flet_core\page.py", line 719, in update
+    r = self.__update(self)
+  File "C:\Users\DELL pro\AppData\Roaming\Python\Python313\site-packages\flet_core\page.py", line 835, in __update
+    results = self.__conn.send_commands(self._session_id, commands).results
+              ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL pro\AppData\Roaming\Python\Python313\site-packages\flet_runtime\flet_socket_server.py", line 173, in send_commands
+    self.__send(ClientMessage(ClientActions.PAGE_CONTROLS_BATCH, messages))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL pro\AppData\Roaming\Python\Python313\site-packages\flet_runtime\flet_socket_server.py", line 179, in __send
+    self.__loop.call_soon_threadsafe(self.__send_queue.put_nowait, j)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 873, in call_soon_threadsafe
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\Python313\Lib\asyncio\base_events.py", line 551, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
+
+Error in change_view for history:
+Traceback (most recent call last):
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\main.py", line 74, in change_view
+    content_area.content = history_view.get_view(page)
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\DELL pro\.gemini\antigravity\scratch\centra-med-app\views\history_view.py", line 23, in get_view
+    year_filter = ft.Dropdown(label="السنة", width=100, options=[ft.dropdown.Option(str(y)) for y in range(2023, 2031)], rtl=True, height=45, text_size=13)
+                  ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Dropdown.__init__() got an unexpected keyword argument 'rtl'
