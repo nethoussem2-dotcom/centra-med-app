@@ -35,6 +35,20 @@ def get_user(username, password_hash):
         print(f"Error get_user: {e}")
         return None
 
+def add_user(username, password_hash, full_name, role):
+    try:
+        url = f"{SUPABASE_URL}/users"
+        payload = {
+            "username": username,
+            "password_hash": password_hash,
+            "full_name": full_name,
+            "role": role
+        }
+        res = requests.post(url, headers=HEADERS, json=payload)
+        return res.status_code in (200, 201)
+    except:
+        return False
+
 def update_user_password(username, new_password_hash):
     try:
         url = f"{SUPABASE_URL}/users?username=eq.{username}"
