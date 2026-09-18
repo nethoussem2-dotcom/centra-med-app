@@ -361,6 +361,6 @@ def main(page: ft.Page):
     load_login_screen()
 
 if __name__ == "__main__":
-    assets_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "assets")
+    assets_path = os.path.join(os.path.dirname(__file__), "assets")
     # Run as a Local Web Server to allow access from mobile devices on the local network (Wi-Fi)
     ft.app(target=main, assets_dir=assets_path, view=ft.AppView.WEB_BROWSER, host="0.0.0.0", port=8000)
