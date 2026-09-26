@@ -26,7 +26,11 @@ sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 import database
 import auth
 import translations
-from views import login_view, dashboard_view, entry_view, history_view, admin_view, suivi_view, analysis_view, batch_view, kpi_view, feedback_view, transfert_view
+try:
+    import charset_normalizer
+except ImportError:
+    pass
+import login_view, dashboard_view, entry_view, history_view, admin_view, suivi_view, analysis_view, batch_view, kpi_view, feedback_view, transfert_view
 
 def main(page: ft.Page):
     # 1. Desktop Window Properties
