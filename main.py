@@ -360,9 +360,9 @@ def main(page: ft.Page):
         page.controls.clear()
         page.add(login_view.get_view(page, on_login_success=do_login))
         page.update()
-
-    # Initial frame bootstrap
-    load_login_screen()
-
-if __name__ == "__main__":
-    ft.app(main)
+        
+    if __name__ == "__main__":
+    try:
+        ft.app(main)
+    except AttributeError:
+        pass
