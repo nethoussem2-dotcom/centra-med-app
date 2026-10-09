@@ -35,9 +35,12 @@ import login_view, dashboard_view, entry_view, history_view, admin_view, suivi_v
 def main(page: ft.Page):
     # 1. Desktop Window Properties
     page.title = translations.t('app_title', page)
-    page.window.maximized = True
-    page.window.min_width = 1100
-    page.window.min_height = 700
+    try:
+        page.window.maximized = True
+        page.window.min_width = 1100
+        page.window.min_height = 700
+    except Exception:
+        pass
     page.theme_mode = ft.ThemeMode.DARK
 
     page.padding = 0
