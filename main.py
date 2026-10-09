@@ -368,7 +368,4 @@ def main(page: ft.Page):
     load_login_screen()
 
 if __name__ == "__main__":
-    try:
-        ft.app(main)
-    except AttributeError:
-        pass
+    ft.app(main)
