@@ -1,0 +1,13 @@
+[project]
+name = "centra-med"
+version = "1.0.0"
+dependencies = [
+    "flet==0.24.1",
+    "requests",
+    "charset-normalizer"
+]
+
+[tool.flet]
+org = "com.centramed"
+product = "CentraMed"
+description = "CentraMed Production App"
