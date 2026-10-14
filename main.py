@@ -368,4 +368,6 @@ def main(page: ft.Page):
     load_login_screen()
 
 if __name__ == "__main__":
-    ft.app(main)
+    assets_path = os.path.join(os.path.dirname(__file__), "assets")
+    port = int(os.environ.get("PORT", 8080))
+    ft.app(target=main, assets_dir=assets_path, view=ft.AppView.WEB_BROWSER, host="0.0.0.0", port=port)
