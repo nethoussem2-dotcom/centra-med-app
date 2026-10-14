@@ -33,9 +33,6 @@ jobs:
         with:
           flutter-version: '3.22.0'
           channel: 'stable'
-          
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
 
       - name: Accept Android Licenses
         run: yes | flutter doctor --android-licenses || true
