@@ -11,3 +11,7 @@ dependencies = [
 org = "com.centramed"
 product = "CentraMed"
 description = "CentraMed Production App"
+
+[tool.flet.app]
+path = "."
+module = "main"
